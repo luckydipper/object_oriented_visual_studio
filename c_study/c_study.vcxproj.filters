@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="std_console_io.c">
+    <ClCompile Include="si_bun_cho.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

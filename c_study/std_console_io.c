@@ -10,6 +10,7 @@ int carefull_using_buffer(void)
 {
 	FILE* fp = stdin;
 	int age = 0;
+
 	char yname[12] = "0";
 	puts("chat your age ");
 	scanf_s("input : %d",&age); // 마지막에 엔터 \0이 저장됨. scanf가 끝나서 \0 한번 더 붙혀. \0\0이 됨.
@@ -78,7 +79,6 @@ int main(void)
 	//int NDATA = 0;
 	//scanf_s("%d", &NDATA);
 	//consol_input(void);
-
 	carefull_using_buffer();
 
 	return 0;
