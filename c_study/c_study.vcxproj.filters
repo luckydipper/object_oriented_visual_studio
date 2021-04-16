@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="si_bun_cho.c">
+    <ClCompile Include="memory_pointer.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
