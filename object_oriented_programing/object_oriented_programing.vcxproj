@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="fibonacci_seris.cpp" />
+    <ClCompile Include="opp_4_21.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
