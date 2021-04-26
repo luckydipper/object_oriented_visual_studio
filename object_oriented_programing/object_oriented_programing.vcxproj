@@ -19,7 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="opp_4_21.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="counter.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="counter.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
