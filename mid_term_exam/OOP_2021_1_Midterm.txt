@@ -1,0 +1,100 @@
+03136321C9057D4B6AEEA74CFB182B39F026D9965E51C901D9D60947A7A38454
+2021-04-28.12:16:05
+#include <iostream>
+#include <vector>
+void midterm_ex();
+
+#ifdef WIN32
+#ifdef _DEBUG
+#pragma comment(lib, "OOP_2021_1_Midterm_LibD.Lib")
+#else
+#pragma comment(lib, "OOP_2021_1_Midterm_Lib.Lib")
+#endif
+#else
+#ifdef _DEBUG
+#pragma comment(lib, "OOP_2021_1_Midterm_Lib64D.Lib")
+#else
+#pragma comment(lib, "OOP_2021_1_Midterm_Lib64.Lib")
+#endif
+#endif
+
+int main()
+{
+	midterm_ex();
+	//
+}
+03136321C9057D4B6AEEA74CFB182B39F026D9965E51C901D9D60947A7A38454
+2021-04-28.12:17:18
+#include <iostream>
+#include <vector>
+void midterm_ex();
+
+#ifdef WIN32
+#ifdef _DEBUG
+#pragma comment(lib, "OOP_2021_1_Midterm_LibD.Lib")
+#else
+#pragma comment(lib, "OOP_2021_1_Midterm_Lib.Lib")
+#endif
+#else
+#ifdef _DEBUG
+#pragma comment(lib, "OOP_2021_1_Midterm_Lib64D.Lib")
+#else
+#pragma comment(lib, "OOP_2021_1_Midterm_Lib64.Lib")
+#endif
+#endif
+
+int main()
+{
+	midterm_ex();
+	//
+}
+03136321C9057D4B6AEEA74CFB182B39F026D9965E51C901D9D60947A7A38454
+2021-04-28.12:18:07
+#include <iostream>
+#include <vector>
+void midterm_ex();
+
+#ifdef WIN32
+#ifdef _DEBUG
+#pragma comment(lib, "OOP_2021_1_Midterm_LibD.Lib")
+#else
+#pragma comment(lib, "OOP_2021_1_Midterm_Lib.Lib")
+#endif
+#else
+#ifdef _DEBUG
+#pragma comment(lib, "OOP_2021_1_Midterm_Lib64D.Lib")
+#else
+#pragma comment(lib, "OOP_2021_1_Midterm_Lib64.Lib")
+#endif
+#endif
+
+int main()
+{
+	midterm_ex();
+	std::cout << "It works!";
+}
+03136321C9057D4B6AEEA74CFB182B39F026D9965E51C901D9D60947A7A38454
+2021-04-28.12:18:26
+#include <iostream>
+#include <vector>
+void midterm_ex();
+
+#ifdef WIN32
+#ifdef _DEBUG
+#pragma comment(lib, "OOP_2021_1_Midterm_LibD.Lib")
+#else
+#pragma comment(lib, "OOP_2021_1_Midterm_Lib.Lib")
+#endif
+#else
+#ifdef _DEBUG
+#pragma comment(lib, "OOP_2021_1_Midterm_Lib64D.Lib")
+#else
+#pragma comment(lib, "OOP_2021_1_Midterm_Lib64.Lib")
+#endif
+#endif
+
+int main()
+{
+	midterm_ex();
+	std::cout << "It works!";
+}
