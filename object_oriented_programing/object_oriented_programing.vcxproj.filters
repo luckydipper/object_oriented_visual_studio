@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="OOP Lab 10.cpp">
+    <ClCompile Include="oop lec 12.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
