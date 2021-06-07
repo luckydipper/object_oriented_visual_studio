@@ -1,34 +1,59 @@
 #include <iostream>
 #include <vector>
+#include <string>
+#include <cassert>
 
-class Widget {
+class Shape {
+	static double PI = 3.141592;
 public:
-	virtual int f() { return 1; }
+	
+	virtual void area_calculation() = 0;
+	virtual void print() = 0;
 };
 
-class Gadget : public Widget {
+class TwoDemension : public Shape {
+
+private:
+	const std::string status_label[4] = { "Triangle", "Rectangule","Circle" };
+	std::string status;
+	double x, y, r, area = 0;
+
 public:
-	virtual int f() { return 2; }
+	TwoDemension(std::string status, double x, double y, double r);
+	void area_calculation();
+	void print();
 };
 
-class Gizmo : public Widget {
-public:
-	virtual int f() { return 3; }
-};
-
-void do_it(Widget* w) {
-	std::cout << w->f() << " ";
+bool hasNum(const std::string a[], int size, std::string figure) {
+	for (int i = 0; i < size; i++) {
+		if (a[i] == figure) {
+			return true;
+		}
+	}
+	return false;
 }
 
-int main() {
 
-	std::vector<Widget*> widgets;
-	Widget wid;
-	Gadget gad;
-	Gizmo giz;
-	widgets.push_back(&wid);
-	widgets.push_back(&gad);
-	widgets.push_back(&giz);
-	for (size_t i = 0; i < widgets.size(); i++)
-		do_it(widgets[i]);
+
+TwoDemension::TwoDemension(std::string status, double x = 0, double y = 0, double r = 0) : status(status), x(x), y(y), r(r) {
+	const std::string* check_label = this-> status_label;
+	int size = sizeof(this->status_label) / sizeof(std::string);
+	bool adequent_figure = hasNum(check_label, size, status);
+	assert(!adequent_figure && "status is not Triangle or Rectangule or Circle ");
+};
+
+void TwoDemension::area_calculation() {
+	if (this->status == std::string("Triangle")){
+		area = this->x * this->y * 1/2;
+		std::cout << "Triangle area calcuated.";
+	}
+}
+
+class TreeDemension : public Shape {
+
+};
+
+int main() {
+	TwoDemension triange(std::string("Triangle"), 8., 4.);
+	return 0;
 }

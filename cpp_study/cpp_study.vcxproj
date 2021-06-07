@@ -139,7 +139,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="filestream.cpp" />
     <ClCompile Include="mains.cpp" />
   </ItemGroup>
   <ItemGroup>
